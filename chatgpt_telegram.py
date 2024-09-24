@@ -2,8 +2,8 @@ import telebot
 from openai import OpenAI
 import time
 
-client = OpenAI(api_key='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')
-bot = telebot.TeleBot('6719369577:AAG5oC6ajaPsb2C8IvJhc1Ugl6a5iAze5ps')
+client = OpenAI(api_key='key')
+bot = telebot.TeleBot('token')
 
 @bot.message_handler(commands=['start'])
 def start(message):
